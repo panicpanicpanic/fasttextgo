@@ -1,6 +1,6 @@
 package fasttextgo
 
-// #cgo LDFLAGS: -L${SRCDIR} -lfasttext -lstdc++ -lm
+// #cgo LDFLAGS: -L/bitly/local/lib -lfasttext -lstdc++ -lm
 // #include <stdlib.h>
 // void load_model(char *name, char *path);
 // int predict(char* name, char *query, float *prob, char **buf, int *count, int k, int buf_sz);
